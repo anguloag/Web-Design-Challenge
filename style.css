@@ -80,11 +80,6 @@ a {
     padding: 10px;
 }
 
-.navbar-toggler{
-    color: darkslategrey;
-    border-color: darkslategrey;
-}
-
  /* Adding media queries for small-screen adjustment */
 @media(max-width: 800px) {
     
@@ -113,9 +108,9 @@ a {
         background-color: teal;
     }
 
-    .navbar-toggler{
-        color: lightgrey;
-        border-color: lightgrey;
+    .collapse {
+        background-color: white;
+        padding: 10px;
     }
-  
+
 }
